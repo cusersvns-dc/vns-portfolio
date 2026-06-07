@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/projects",
+      "destination": "/html/projects.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/html/contact.html"
+    },
+    {
+      "source": "/terms",
+      "destination": "/html/terms.html"
+    },
+    {
+      "source": "/project/:slug",
+      "destination": "/html/:slug.html"
+    }
+  ]
+}
